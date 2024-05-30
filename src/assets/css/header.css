@@ -1,0 +1,70 @@
+:root {
+    --light-grey : '#D3D3D3'
+  }
+
+.header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.headerComponents{
+  display: flex;
+  width: 25%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3%;
+}
+
+
+.logoContainer {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-left: 4px;
+}
+
+.logoContainer img {
+    width: 30px;
+    height: 30px;
+}
+
+.logoContainer p {
+  font-size: 20px;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+
+  
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.searchBar{
+  width: 300px;
+  height: 35px;
+  border: 1px solid #D3D3D3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  border-radius: 10px;
+}
+.searchBar input{
+  width: 85%;
+  outline: none;
+  height: 80%;
+  background: none;
+  border: none;
+}
